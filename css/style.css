@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Fira code";
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    border-bottom: 5px solid #942fff;
+}
+
+header h1{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(24, 0, 45);
+    color: white;
+}
+
+header span{
+    color: #942fff;
+}
+
+section{
+    height: 880px;
+    background-color: rgb(232, 232, 232);
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    background-color: #942fff;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.top input{
+    color: white;
+    border: 0px;
+    border-bottom: 5px solid white;
+    padding: 10px;
+    width: 60%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff00;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid #942fff;
+}
+
+.content h3{
+    color: rgb(43, 43, 43);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content h4{
+    color: rgba(54, 54, 54, 0.765);
+    margin-left: 20px;
+}
+
+.text{
+    background-color: #942fff;
+    height: 100px;
+    width: 90%;
+    text-align: center;
+}
+
+.edit_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.btn button{
+    cursor: pointer;
+    width: 130px;
+    height: 30px;
+    background-color: rgb(55, 55, 55);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.btn .R{
+    color: red;
+}
+
+.btn .G{
+    color: green;
+}
+
+.btn .B{
+    color: blue;
+}
+
+footer .bottom{
+    padding: 10px;
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(24, 0, 45);
+    border-top: 5px solid #942fff;
+    bottom: 0px;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+span{
+    color: #942fff;
+}
