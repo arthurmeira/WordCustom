@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: 'Roboto Mono', monospace;  
     width: 60%;
@@ -27,19 +28,18 @@ header span{
 }
 
 section{
-    height: 880px;
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(225, 225, 225);
+    height: 0;
+    padding-bottom: 100%;
 }
 
 .container{
     display: block;
     justify-content: center;
     align-items: center;
-
     width: 60%;
-    height: 100px;
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -61,14 +61,14 @@ section{
     font-size: 22px;
     font-weight: bold;
     text-align: center;
-    background-color: #ffffff1f;
+    background-color: rgb(55, 55, 55);
 }
 
 .content{
     width: 100%;
     height: 400px;
     background-color: rgb(255, 255, 255);
-    border: 5px solid #942fff;
+    border: 5px solid #942fff;  
 }
 
 .content h3{
@@ -93,7 +93,11 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn button{
@@ -123,7 +127,7 @@ section{
 
 footer .bottom{
     padding: 10px;
-    position: absolute;
+    position: fixed;
     width: 60%;
     text-align: center;
     background-color: rgb(24, 0, 45);
