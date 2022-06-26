@@ -19,7 +19,7 @@
     <section>
         <div class="container">
             <div class="top">
-                <input type="text" value="Digite algo aqui...">
+                <input onchange="custom()" id="input" type="text" value="Digite algo aqui...">
             </div><!--top-->
 
             <div class="content">
@@ -28,18 +28,18 @@
                 
                 <div class="edit_btn">
                         <div class="btn">
-                            <button style="color: red;">Vermelho</button>
-                            <button style="color: green;">Verde</button>
-                            <button style="color: blue;">Azul</button>
-                            <button style="color: yellow;">Amarelo</button>
-                            <button style="color: orange;">Laranja</button>
-                            <button style="color: purple;">Roxo</button>
+                            <button onclick="red()" style="color: red;">Vermelho</button>
+                            <button onclick="green()" style="color: green;">Verde</button>
+                            <button onclick="blue()" style="color: blue;">Azul</button>
+                            <button onclick="yellow()" style="color: yellow;">Amarelo</button>
+                            <button onclick="orange()" style="color: orange;">Laranja</button>
+                            <button onclick="purple()" style="color: purple;">Roxo</button>
                             <br>
-                            <button style="color: pink;">Rosa</button>
-                            <button style="color: brown;">Marrom</button>
-                            <button style="color: white;">Branco</button>
-                            <button style="color: grey;">Cinza</button>
-                            <button style="color: black;">Preto</button>
+                            <button onclick="pink()" style="color: pink;">Rosa</button>
+                            <button onclick="brown()" style="color: brown;">Marrom</button>
+                            <button onclick="blue()" style="color: white;">Branco</button>
+                            <button onclick="blue()" style="color: grey;">Cinza</button>
+                            <button onclick="blue()" style="color: black;">Preto</button>
                            <button><span class="R">R</span><span class="G">G</span><span class="B">B</span></button> 
                     
                             <br>
@@ -63,5 +63,7 @@
         </div><!--bottom-->
     </footer>
 
+
+    <script src="/js/script.js"></script>
 </body>
 </html>
